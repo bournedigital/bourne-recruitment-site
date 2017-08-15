@@ -1,0 +1,34 @@
+/** ///////////// - styles.scss - start - ///////////// */
+/** ///////////// - styles import - start - ///////////// */
+/** ///////////// - mixin.scss - start - ///////////// */
+/** //Responsive breakpoint mixin start */
+/** //Responsive breakpoint mixin end */
+/** //Clearfix mixin start */
+/** //Clearfix mixin end */
+/** //Grid mixin start */
+/** //Grid mixin end */
+/** ///////////// - mixin.scss - end - ///////////// */
+/** ///////////// - global.scss - start - ///////////// */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+  *:focus {
+    outline: none; }
+
+/** ///////////// - global.scss - end - ///////////// */
+/** ///////////// - grid.scss - start - ///////////// */
+.site {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/** ///////////// - grid.scss - end - ///////////// */
+.clearfix:before, .site:before, .clearfix:after, .site:after {
+  content: "";
+  display: table; }
+
+.clearfix:after, .site:after {
+  clear: both; }
+
+/** ///////////// - styles import - end - ///////////// */
+/** ///////////// - styles.scss - end - ///////////// */

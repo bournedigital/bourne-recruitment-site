@@ -1,0 +1,14 @@
+/** ///////////// - styles.scss - start - ///////////// */
+
+/** ///////////// - styles import - start - ///////////// */
+@import 'components/variables';
+@import 'components/mixins';
+@import 'components/global';
+@import 'components/grid';
+
+.clearfix {
+	@include clearfix();
+}
+/** ///////////// - styles import - end - ///////////// */
+
+/** ///////////// - styles.scss - end - ///////////// */
